@@ -22,7 +22,7 @@ function arrShuffle(arr){
   }
 // Rejoin
   arr = arr.join("")
-  console.log(arr)
+  // console.log(arr)
   return arr
 }
 
@@ -41,7 +41,9 @@ function generatePassword(){
   // Prompt the user the password settings
   var passLength = prompt("choose a length of at least 8 characters and no more than 128 characters")
 
-  while(passLength < 8 || passLength > 129 ){
+  console.log(typeof passLength)
+
+  while(passLength < 7 || passLength > 129){
     passLength = prompt("choose a length of at least 8 characters and no more than 128 characters")
   }
   console.log(passLength)
@@ -73,7 +75,7 @@ function generatePassword(){
       i++
       }    
   }
-  console.log(pass)
+  // console.log(pass)
   pass = arrShuffle(pass)
   pass = arrShuffle(pass)
 
