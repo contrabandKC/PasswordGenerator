@@ -8,15 +8,15 @@ Create an application that creates a random password given the criteria.
 using javascript logic for the back end
 
 Criteria
- *Series of prompts will as the user what attributes for the password
+ * Series of prompts will as the user what attributes for the password
     * How long the password will be.
-        *Between 8 and 128
-    *lowercase Letters
-    *Uppercase Letters
-    *Numbers
-    *Special Characters
+        * Between 8 and 128
+    * lowercase Letters
+    * Uppercase Letters
+    * Numbers
+    * Special Characters
 
-*Present the new password to the user
+* Present the new password to the user
 
 
 ## Links
