@@ -43,7 +43,7 @@ function generatePassword(){
 
   console.log(typeof passLength)
 
-  while(passLength < 7 || passLength > 129){
+  while(passLength <= 7 || passLength > 129){
     passLength = prompt("choose a length of at least 8 characters and no more than 128 characters")
   }
   console.log(passLength)
